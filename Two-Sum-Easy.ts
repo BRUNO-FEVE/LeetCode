@@ -3,8 +3,8 @@
 // Time and Space Complexity: O(nˆ2) 
 
 // Performace:
-//     RunTime:   130 ms      ( better then 18,49% of users of TypeScript)
-//      Memory:   51.76 MB  ( better then 79,20% of users of TypeScript) 
+//     RunTime:   130 ms      ( better then 18,49% of users of TypeScript )
+//      Memory:   51.76 MB  ( better then 79,20% of users of TypeScript ) 
 
 function twoSum(nums: number[], target: number): number[] {
   for(let i=0; i<nums.length; i++) {
