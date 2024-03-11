@@ -3,8 +3,8 @@
 #  Time and Space Complexity: O(n)
 
 #  Performace:
-#      RunTime:   55 ms      ( better then 14,65% of users of Python) Lowest Runtime
-#       Memory:   11,68 MB  ( better then 47,71% of users of Python) 
+#      RunTime:   55 ms      ( better then 14,65% of users of Python ) Lowest Runtime
+#       Memory:   11,68 MB  ( better then 47,71% of users of Python ) 
 
 class Solution(object):
     def isPalindrome(self, x):

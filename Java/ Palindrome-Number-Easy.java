@@ -1,3 +1,12 @@
+// Problem Link: https://leetcode.com/problems/palindrome-number/description/
+
+// Time and Space Complexity: O(n)
+
+// Performace:
+//     RunTime:   6 ms      ( better then 37,33% of users of Java ) Lowest Runtime
+//      Memory:   43.33 MB  ( better then 98,42% of users of Java ) 
+
+
 package java;
 class Solution {
   public boolean isPalindrome(int x) {
