@@ -3,8 +3,8 @@
 // Time and Space Complexity: O(n)
 
 // Performace:
-//     RunTime:   1 ms      ( better then 100% of users of Java) Lowest Runtime
-//      Memory:   44.40 MB  ( better then 44,24% of users of Java) 
+//     RunTime:   1 ms      ( better then 100% of users of Java ) Lowest Runtime
+//      Memory:   44.40 MB  ( better then 44,24% of users of Java ) 
 
 class Solution {
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {  
