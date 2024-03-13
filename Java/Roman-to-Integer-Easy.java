@@ -51,8 +51,6 @@ class Solution {
 
 // Improved Solution: Improving using switch and for.
 
-// Understanding the Problem: https://excalidraw.com/#json=R1b541N2o5Lg1qSFRNz8G,GhwcbvkAsAxxqDG6UZs9uA
-
 // Space Complexity: O(1)
 //  Time Complexity: O(n)
 
