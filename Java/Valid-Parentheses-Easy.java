@@ -25,9 +25,8 @@ class Solution {
         if(openLeft.size() == 0) return false;
         if (openLeft.get(openLeft.size()-1) == returnThePair(s.charAt(i))) {
           openLeft.remove(openLeft.size()-1);
-        } else {
-            return false;
-        }
+        } 
+        openLeft.add(s.charAt(i));
       }
     }
 
