@@ -1,9 +1,19 @@
 package Java;
 
+// Problem Link: https://leetcode.com/problems/merge-two-sorted-lists/description/
+
+// First Solution 
+
+// Space Complexity: O(nˆ2)
+//  Time Complexity: O(nˆ2)
+
+// Performace:
+//     RunTime:   9 ms      ( better then 100% of users of Java )
+//      Memory:   43.64 MB  ( better then 8,49% of users of Java ) 
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
 
 class Solution {
   public ListNode curr1, curr2, next1, next2 = new ListNode(0);
