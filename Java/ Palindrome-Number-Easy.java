@@ -7,6 +7,7 @@
 //      Memory:   43.33 MB  ( better then 98,42% of users of Java ) 
 
 package Java;
+
 class Solution {
   public boolean isPalindrome(int x) {
 
