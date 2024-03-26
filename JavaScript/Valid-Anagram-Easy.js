@@ -1,23 +1,25 @@
-package Java;
+// Problem Link: https://leetcode.com/problems/valid-anagram/description/
 
-import java.util.HashMap;
+// Space Complexity: O(n)
+//  Time Complexity: O(nˆ3)
 
-class Solution {
-  public boolean isAnagram(String s, String t) {
-    HashMap<Character, Integer> tEdited = new HashMap<Character, Integer>(t);
-
-    for(int i=0; i<s.length(); i++) {
-      int index = tEdited.indexOf(s.CHA(i) + "");
-      if (index == -1) {
-        return false;
-      } 
-      tEdited.delete(index, 1);
-    }
+// Performace:
+//     RunTime:   366   ms  ( better then 05,06% of users of Java )
+//      Memory:   55.82 MB  ( better then 06,37% of users of Java ) 
 
 
-    if (t.isEmpty()) {
-      return true;
-    }
-    return false;
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+var isAnagram = function(s, t) {
+  if(s.length != t.length) return false 
+
+  for (let i = 0; i < s.length; i++) {
+    t = t.replace(s.charAt(i), "")
   }
-}
+
+  if(t.length == 0) return true
+  return false
+};
