@@ -4,8 +4,8 @@
 //  Time Complexity: O(nˆ3)
 
 // Performace:
-//     RunTime:   366   ms  ( better then 05,06% of users of Java )
-//      Memory:   55.82 MB  ( better then 06,37% of users of Java ) 
+//     RunTime:   366   ms  ( better then 05,06% of users of JavaScript )
+//      Memory:   55.82 MB  ( better then 06,37% of users of JavaScript ) 
 
 
 /**
