@@ -73,3 +73,60 @@ class Node {
 * int param_3 = obj.top();
 * int param_4 = obj.getMin();
 */
+
+// Improved Solution: O(1) on each function
+
+// Performace:
+//     RunTime:   3 ms      ( better then 100% of users of Java )
+//      Memory:   44.56 MB  ( better then 79,64% of users of Java ) 
+
+class MinStack {
+  Node head;
+
+  public MinStack() {
+    this.head = null;
+  }
+  
+  public void push(int val) {
+      if (this.head == null) {
+        this.head = new Node(val);
+      } else {
+        Node newHead = new Node(val, Math.min(val, this.head.min), this.head);
+        this.head = newHead;
+      }
+  }
+  
+  public void pop() {
+      if (this.head.prev == null) {
+        this.head = null;
+      } else {
+        this.head = this.head.prev;
+      }
+  }
+  
+  public int top() {
+      return this.head.val;
+  }
+  
+  public int getMin() {
+    return this.head.min;
+  }
+}
+
+class Node {
+  public int val;
+  public int min;
+  public Node prev;
+
+  public Node(int val) {
+    this.val = val;
+    this.min = val;
+    this.prev = null;
+  }
+
+  public Node(int val, int min, Node prev) {
+    this.val = val;
+    this.min = min;
+    this.prev = prev;
+  }
+}
