@@ -32,9 +32,7 @@ var topKFrequent = function(nums, k) {
         }
       })
       response.push(bigger)
-      console.log(numbersCount)
       numbersCount.delete(bigger)
-      console.log(numbersCount)
     }
     return response
 };
