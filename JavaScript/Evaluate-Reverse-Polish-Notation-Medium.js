@@ -20,7 +20,6 @@ var evalRPN = function(tokens) {
       numberStack.push(parseInt(tokens[i]))
     } else {
       let result = calculate(tokens[i], numberStack[numberStack.length-2], numberStack[numberStack.length-1])
-      console.log(result)
       numberStack.pop()
       numberStack.pop()
       numberStack.push(result)
@@ -39,7 +38,6 @@ function calculate (operation, num1, num2 ) {
     case "*": 
       return num1 * num2;
     case "/": 
-      if (num1 / num2 < 0) return Math.ceil(num1 / num2)
-      return Math.floor(num1 / num2);
+      return parseInt(num1 / num2);
   }
 }
