@@ -7,7 +7,6 @@
 //     RunTime:   61    ms  ( better then 63,24% of users of JavaScript )
 //      Memory:   58.08 MB  ( better then 34,07% of users of JavaScript ) 
 
-
 /**
  * @param {string[]} tokens
  * @return {number}
